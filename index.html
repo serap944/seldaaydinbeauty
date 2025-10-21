@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Site - Açılır Menü</title>
+
+    <!-- Font Awesome (ikonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- teklifformuna götürmesi için jquerynin scroll animasyonundan destek alıyorum -->
+    <!-- Google Fonts bağlantısı (head içine eklenmeli) -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="still2.css">
+
+
+
+    <script src="script3.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="menu-cubugu">
+            <div class="anabaslik">
+                <div> <img src="images/logo.png" alt="Selin Aydın Beauty"></div>
+                <div>
+                    <h2 class="logo">Selin Aydın
+                        Beauty </h2>
+                </div>
+            </div>
+
+            <!-- Hamburger menü -->
+            <button class="menu-toggle" aria-label="Menüyü aç/kapat">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Menü -->
+            <ul class="linklerim">
+                <li class="menu-oge"><a href="#">blog</a></li>
+
+                <li class="menu-oge acilir">
+                    <button type="button" class="acilir-toggle">
+                        hizmetlerimiz <i class="fas fa-chevron-down down-icon"></i>
+                    </button>
+                    <div class="acilir-pencere">
+                        <a href="#">Alexandrite Hybrit Epilasyon</a>
+                        <a href="#">Hydrofacial Cilt Bakımı</a>
+                        <a href="#">Bölgesel İncelme & G5</a>
+                        <a href="#">Kalıcı Makyaj</a>
+
+                    </div>
+                </li>
+
+                <li class="menu-oge"><a href="/iletisim">iletişim</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <article class="banner">
+
+
+
+
+        <section class="anakutu">
+            <div class="kutu">
+                <p class="egik">
+                    cilt bakımıyla yenile
+                </p>
+            </div>
+        </section>
+
+    </article>
+
+    <main class="anaicerik">
+        <section class="kutu1">
+            <div class="sol">
+                <h2>Selin Aydın Beauty'e Hoş Geldiniz!</h2>
+                <p>Selin Aydın Beauty olarak, güzelliğinizi ve sağlığınızı ön planda tutan profesyonel hizmetler
+                    sunmaktayız. Uzman ekibimizle birlikte, cilt bakımı, lazer epilasyon, kalıcı makyaj ve bölgesel
+                    inceltme gibi çeşitli hizmetlerimizle size en iyi deneyimi yaşatmayı hedefliyoruz.</p>
+                <p>Modern teknolojiler ve kaliteli ürünler kullanarak, kişiye özel çözümler sunuyoruz. Güzellik
+                    yolculuğunuzda yanınızda olmak için buradayız. Bize ulaşın ve kendinizi şımartmaya başlayın!</p>
+            </div>
+            <div class="sag yuvarlak">
+                <img src="images/yuzbakimi.jpg" alt="Selin Aydın Beauty">
+            </div>
+        </section>
+
+        <!-- grid kutusu-->
+        <section class="kutu2">
+            <div class="kart">
+                <img src="images/cilt-bakimi2.jpg" alt="Cilt Bakımı">
+                <h3>Cilt Bakımı</h3>
+                <p>Profesyonel cilt bakımı hizmetlerimizle cildinizi yenileyin ve sağlıklı bir görünüm kazanın.</p>
+                <a href="#" class="btn">Detaylar</a>
+
+            </div>
+            <div class="kart">
+                <img src="images/lifting.jpg" alt="Lifting">
+                <h3>Lifting</h3>
+                <p>Lifting uygulamalarımızla kirpiklerinizi belirginleştirin ve daha iyi bir görünüm elde edin.</p>
+                <a href="#" class="btn">Detaylar</a>
+            </div>
+            <div class="kart">
+                <img src="images/lazer.webp" alt="Lazer Epilasyon">
+                <h3>Lazer Epilasyon</h3>
+                <p>Lazer epilasyon hizmetlerimizle istenmeyen tüylerden kurtulun ve pürüzsüz bir cilde kavuşun.</p>
+                <a href="#" class="btn">Detaylar</a>
+
+            </div>
+
+            <div class="kart">
+                <img src="images/kalici-makyaj.jpg" alt="Kalıcı Makyaj">
+                <h3>Kalıcı Makyaj</h3>
+                <p>Kalıcı makyaj uygulamalarımızla her zaman hazır ve bakımlı bir görünüm elde edin.</p>
+                <a href="#" class="btn">Detaylar</a>
+            </div>
+
+            <div class="kart">
+                <img src="images/bolgesel-inceltme.jpg" alt="Bölgesel İncelme">
+                <h3>Bölgesel İncelme</h3>
+                <p>Bölgesel inceltme hizmetlerimizle formda kalın ve istediğiniz vücut şekline kavuşun.</p>
+                <a href="#" class="btn">Detaylar</a>
+            </div>
+            <div class="kart">
+                <img src="images/selulit.jpg" alt="Selülit Bakımı">
+                <h3>Selülit Bakımı</h3>
+                <p>G5 ile Selülit görünümünü azaltmak için etkili tedavi yöntemleri sunuyoruz.</p>
+                <a href="#" class="btn">Detaylar</a>
+            </div>
+
+            <div class="kart">
+                <img src="images/tirnak-protez.jpg" alt="Tırnak Protez">
+                <h3>Tırnak Protez</h3>
+                <p>Profesyonel tırnak protez hizmetlerimizle ellerinizi güzelleştirin.</p>
+                <a href="#" class="btn">Detaylar</a>
+            </div>
+
+
+        </section>
+
+        <section class="kutu1">
+            <div class="sol">
+                <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+                <p>Selin Aydın Beauty olarak, müşteri memnuniyetini en üst düzeyde tutmayı hedefliyoruz. Uzman kadromuz,
+                    son teknoloji ekipmanlarımız ve kişiye özel hizmet anlayışımızla fark yaratıyoruz.</p>
+                <p>Her müşterimizin ihtiyaçlarına özel çözümler sunarak, güvenilir ve etkili hizmetler sağlıyoruz.
+                    Güzellik
+                    yolculuğunuzda yanınızda olmak için buradayız. Bize ulaşın ve kendinizi şımartmaya başlayın!</p>
+            </div>
+            <div class="sag kare">
+                <img src="images/kalici-makyaj2.jpg" alt="Neden Bizi Tercih Etmelisiniz?">
+            </div>
+        </section>
+
+        <section class="kutu3">
+            <h2>Hizmetlerimiz</h2>
+
+            <div class="cerceve">
+
+                <div class="calismalar">
+                    <img src="images/tirnak-protez.jpg" alt="Tırnak Protez">
+                    <img src="images/lifting3.jpg" alt="Kirpik Lifting">
+                    <img src="images/cilt.jpg" alt="Hydrofacial Cilt Bakımı">
+                    <img src="images/cilt2.jpg" alt="Hydrofacial Cilt Bakımı">
+                    <img src="images/zayiflama.jpg" alt="Bölgesel İncelme">
+                    <img src="images/cilt-bakimi2.jpg" alt="Cilt Bakımı">
+                    <img src="images/lazer.webp" alt="Lazer Epilasyon">
+                    <img src="images/kalici-makyaj.jpg" alt="Kalıcı Makyaj">
+
+                </div>
+                <div class="butonlarim">
+                    <button id="sol">
+                        < </button>
+                            <button id="sag"> > </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- WhatsApp İkonu -->
+        <a href="https://wa.me/905523066944?text=Merhaba, web sitenizden iletişime geçiyorum. Ürün ve hizmetleriniz hakkında bilgi almak istiyorum"
+            class="whatsapp-float" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+    </main>
+
+    <footer class="altbilgi">
+        <p>&copy; 2024 Selin Aydın Beauty. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+
+</html>

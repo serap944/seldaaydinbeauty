@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Güzellik Salonu</title>
+
+    <!-- Google Fonts -->
+
+    <!-- Font Awesome (ikonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- teklifformuna götürmesi için jquerynin scroll animasyonundan destek alıyorum -->
+    <!-- Google Fonts bağlantısı (head içine eklenmeli) -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="still2.css">
+
+
+
+    <script src="script3.js"></script>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0B1B3F;
+            /* koyu mavi arka plan */
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Ana içerik */
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding-top: 10rem;
+        }
+
+        .section {
+            background-color: #1A2A5A;
+            padding: 10rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #FFD700;
+        }
+
+        .section p {
+            font-size: 1.05rem;
+            color: #e0e6f3;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-size: 1rem;
+            color: #cbd5e1;
+        }
+
+        .contact-info a {
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #0B1B3F;
+            border-top: 2px solid #FFD700;
+            color: #cbd5e1;
+            margin-top: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-cubugu">
+            <div class="anabaslik">
+                <div> <img src="images/logo.png" alt="Selin Aydın Beauty"></div>
+                <div>
+                    <h2 class="logo">Selin Aydın
+                        Beauty </h2>
+                </div>
+            </div>
+
+            <!-- Hamburger menü -->
+            <button class="menu-toggle" aria-label="Menüyü aç/kapat">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Menü -->
+            <ul class="linklerim">
+                <li class="menu-oge"><a href="#">blog</a></li>
+
+                <li class="menu-oge acilir">
+                    <button type="button" class="acilir-toggle">
+                        hizmetlerimiz <i class="fas fa-chevron-down down-icon"></i>
+                    </button>
+                    <div class="acilir-pencere">
+                        <a href="#">Alexandrite Hybrit Epilasyon</a>
+                        <a href="#">Hydrofacial Cilt Bakımı</a>
+                        <a href="#">Bölgesel İncelme & G5</a>
+                        <a href="#">Kalıcı Makyaj</a>
+
+                    </div>
+                </li>
+
+                <li class="menu-oge"><a href="/iletisim">iletişim</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- Hakkımızda -->
+        <div class="section">
+            <h2>Hakkımızda</h2>
+            <p>
+                Salonumuz, profesyonel güzellik hizmetlerini modern bir anlayışla sunmaktadır.
+                Müşteri memnuniyeti bizim önceliğimizdir ve her hizmetimiz, yüksek kalite standartlarıyla verilmektedir.
+                Uzman ekibimizle sizlere cilt bakımı, makyaj, saç tasarımı ve daha fazlasını sunuyoruz.
+            </p>
+        </div>
+
+        <!-- Misyon & Vizyon -->
+        <div class="section">
+            <h2>Misyon & Vizyon</h2>
+            <p>
+                Misyonumuz; müşterilerimizin kendilerini özel ve değerli hissetmelerini sağlamak,
+                güzellik alanında en kaliteli hizmetleri sunmaktır.
+                Vizyonumuz; sektörde yenilikçi uygulamaları takip ederek, her zaman öncü bir salon olmaktır.
+            </p>
+        </div>
+
+        <!-- İletişim Bilgileri -->
+        <div class="section">
+            <h2>İletişim Bilgileri</h2>
+            <div class="contact-info">
+                <p><strong>Adres:</strong> Merkez, Ferah Sk. No:14-7A D:78, 34240 Gaziosmanpaşa/İstanbul</p>
+                <p><strong>Telefon:</strong> <a href="#">0552 306 69 44</a></p>
+                <p><strong>E-posta:</strong> <a href="#">info@seldaaydinguzelliksalonu.com</a></p>
+                <p><strong>Çalışma Saatleri:</strong> Pazartesi - Cumartesi: 09:00 - 20:00</p>
+                <p><strong>Sosyal Medya:</strong>
+                    <a href="#">Instagram</a> |
+                    <a href="#">Facebook</a> |
+
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Güzellik Salonu. Tüm Hakları Saklıdır.
+    </footer>
+</body>
+
+</html>
