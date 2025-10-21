@@ -459,6 +459,67 @@
  }
 
 
+ .kutu4 {
+     background: linear-gradient(135deg, #0B1B3F, #1A2A5A);
+     color: #fff;
+     text-align: center;
+     padding: 3rem 2rem;
+     border-radius: 15px;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+     max-width: 700px;
+     margin: 2rem auto;
+     position: relative;
+     overflow: hidden;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .kutu4::before {
+     content: "";
+     position: absolute;
+     top: -50%;
+     left: -50%;
+     width: 200%;
+     height: 200%;
+     background: rgba(255, 215, 0, 0.05);
+     transform: rotate(45deg);
+ }
+
+ .kutu4:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+ }
+
+ .kutu4 h3 {
+     font-size: 2rem;
+     margin-bottom: 1rem;
+     color: #FFD700;
+     /* Altın sarısı vurgu */
+     letter-spacing: 1px;
+ }
+
+ .kutu4 p {
+     font-size: 1.1rem;
+     margin-bottom: 0.8rem;
+     color: #e0e6f3;
+ }
+
+ .kutu4 .btn {
+     display: inline-block;
+     margin-top: 1rem;
+     padding: 0.8rem 2rem;
+     background-color: #FFD700;
+     color: #0B1B3F;
+     font-weight: 600;
+     border-radius: 50px;
+     text-decoration: none;
+     transition: background-color 0.3s ease, transform 0.2s ease;
+ }
+
+ .kutu4 .btn:hover {
+     background-color: #e6c200;
+     transform: scale(1.05);
+ }
+
 
 
  .whatsapp-float {
@@ -624,6 +685,13 @@
          border: none;
      }
 
+     .kutu4 h3 {
+         font-size: 1.5rem;
+     }
+
+     .kutu4 p {
+         font-size: 1rem;
+     }
 
  }
 
