@@ -745,6 +745,10 @@
      .kutu4 p {
          font-size: 1rem;
      }
+      footer{
+max-height:30vh;
+           
+      }
    
          .footer-container {
               display:flex;
@@ -770,4 +774,5 @@
      }
 
  }
+
 
