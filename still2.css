@@ -745,9 +745,7 @@
      .kutu4 p {
          font-size: 1rem;
      }
-
-     /* Responsive */
-     @media (max-width: 768px) {
+   
          .footer-container {
              flex-direction: column;
              align-items: center;
@@ -768,4 +766,5 @@
          flex: 0 0 calc(80% - 10px);
          /* mobilde tek resim daha büyük */
      }
+
  }
